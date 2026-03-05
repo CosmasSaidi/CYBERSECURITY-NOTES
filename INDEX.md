@@ -10,12 +10,3 @@
 ## Shell Scripting
 - [Command Substitution](shell-scripting/command-substitution.md)
 - [Pipes and Redirection](shell-scripting/pipes-and-redirection.md)
-
-## Suggested Order
-1. Permissions
-2. Environment Variables
-3. PATH and Execution
-4. Processes and Jobs
-5. Pipes and Redirection
-6. Command Substitution
-7. su, sudo, and Privilege
