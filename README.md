@@ -1,51 +1,28 @@
-# 🔐 Security Notes
+# Security Notes
 
-Personal knowledge base for cybersecurity concepts, built while learning through pwn.college.
+Reference notes on cybersecurity concepts. Built while learning through pwn.college.
 
-## Purpose
+## Topics
 
-This repository contains **concept notes and safe mini-labs** — not challenge writeups or solutions. It's designed to:
+### Linux Security
+- [Permissions](linux-security/permissions.md)
+- [Environment Variables](linux-security/environment-variables.md)
+- [PATH and Execution](linux-security/path-and-execution.md)
+- [Processes and Jobs](linux-security/processes-and-jobs.md)
+- [su, sudo, and Privilege](linux-security/su-sudo-and-privilege.md)
 
-- Document security fundamentals in a clear, step-by-step format
-- Serve as a quick reference during practice
-- Demonstrate understanding to potential employers
+### Shell Scripting
+- [Command Substitution](shell-scripting/command-substitution.md)
+- [Pipes and Redirection](shell-scripting/pipes-and-redirection.md)
 
-## How to Use
+See [INDEX.md](INDEX.md) for full topic list.
 
-1. Check [INDEX.md](INDEX.md) for a complete topic list and suggested learning path
-2. Each note follows a consistent structure:
-   - Why it matters
-   - Key concepts
-   - Common mistakes
-   - Safe mini-lab
-   - Defensive takeaway
-   - Quick checklist
-3. All examples are safe, local, and educational
+## Format
 
-## Topics Covered
+Each note covers:
+- Key concepts
+- Commands
+- Common mistakes
+- Security implications
 
-| Category | Description |
-|----------|-------------|
-| [Linux Security](linux-security/) | Permissions, environment, processes, privileges |
-| [Shell Scripting](shell-scripting/) | Pipelines, substitution, safe patterns |
-| [Reverse Engineering](reverse-engineering/) | Analysis workflow and tools |
-| [Binary Exploitation](binary-exploitation/) | Memory layout fundamentals |
-
-## Tags
-
-`#linux` `#permissions` `#env` `#path` `#processes` `#bash` `#re` `#pwn` `#beginner`
-
-## Contribution Rules
-
-- No CTF flags or full solutions
-- Keep examples ethical and defensive-minded
-- Use the [NOTE_TEMPLATE.md](templates/NOTE_TEMPLATE.md) for new notes
-- Focus on "why" and "how to defend" — not just "how to exploit"
-
-## About
-
-Learning cybersecurity through hands-on practice. These notes reflect my actual learning journey.
-
----
-
-*Cosmas Saidi* | [GitHub](https://github.com/CosmasSaidi)
+No flags or solutions. Educational use only.
