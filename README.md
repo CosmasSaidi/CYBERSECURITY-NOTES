@@ -1,28 +1,25 @@
 # Security Notes
 
-Reference notes on cybersecurity concepts. Built while learning through pwn.college.
+Security concepts and commands from hands-on practice.
 
 ## Topics
 
-### Linux Security
-- [Permissions](linux-security/permissions.md)
+### Linux
+- [Fundamentals](linux-security/fundamentals.md)
+- [File Permissions](linux-security/permissions.md)
+- [Process Management](linux-security/process-management.md)
 - [Environment Variables](linux-security/environment-variables.md)
-- [PATH and Execution](linux-security/path-and-execution.md)
-- [Processes and Jobs](linux-security/processes-and-jobs.md)
-- [su, sudo, and Privilege](linux-security/su-sudo-and-privilege.md)
+- [User Management](linux-security/user-management.md)
 
-### Shell Scripting
-- [Command Substitution](shell-scripting/command-substitution.md)
-- [Pipes and Redirection](shell-scripting/pipes-and-redirection.md)
+### Enumeration
+- [Linux Enumeration](enumeration/linux-enumeration.md)
 
-See [INDEX.md](INDEX.md) for full topic list.
+### Methodology
+- [Linux Privilege Escalation](methodology/linux-privesc.md)
 
-## Format
+## Practice Platforms
+- pwn.college
+- TryHackMe
+- Hack The Box
 
-Each note covers:
-- Key concepts
-- Commands
-- Common mistakes
-- Security implications
-
-No flags or solutions. Educational use only.
+No flags or solutions.
