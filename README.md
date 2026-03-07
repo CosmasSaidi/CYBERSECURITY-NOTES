@@ -4,9 +4,9 @@ Technical documentation and methodology notes from hands-on cybersecurity practi
 
 ---
 
-## Topics
+## 📚 Topics
 
-### Linux Security
+### 🐧 Linux Security
 
 Core Linux concepts essential for security roles.
 
@@ -18,26 +18,18 @@ Core Linux concepts essential for security roles.
 | [Environment Variables](linux-security/environment-variables.md) | PATH, LD_PRELOAD, security implications |
 | [User Management](linux-security/user-management.md) | Users, groups, sudo, privilege escalation |
 
----
-
-### Web Security
-
-HTTP and web application security concepts.
-
-| Note | Description |
-|------|-------------|
-| [HTTP Fundamentals](web-security/http-fundamentals.md) | HTTP requests, headers, virtual hosts, curl, netcat |
-
 **Key Commands:**
 ```bash
-nc target.com 80          # Raw HTTP with netcat
-curl -v http://target.com # Debug HTTP request
-curl -H "Host: x" http://y # Custom Host header
+ls -la          # List with permissions
+chmod 755 file  # Change permissions
+ps aux          # List processes
+env             # View environment
+id              # User context
 ```
 
 ---
 
-### Enumeration
+### 🔍 Enumeration
 
 Post-exploitation enumeration techniques.
 
@@ -63,6 +55,22 @@ netstat -tuln
 # Interesting Files
 find / -perm -4000 2>/dev/null  # SUID
 find / -writable -type d 2>/dev/null
+```
+
+---
+
+### 🌐 Web Security
+
+Detection and response notes for common web attack behavior.
+
+| Note | Description |
+|------|-------------|
+| [Web Discovery Detection & Response](web-security/web-discovery-detection-response.md) | Directory brute-force detection, SIEM triage, containment, WAF and rate limiting |
+
+**Quick Detection Cues:**
+```bash
+# High-volume 404s from a single source IP can indicate scanning
+# Repeated /admin, /backup, /config path probes are suspicious
 ```
 
 ---
