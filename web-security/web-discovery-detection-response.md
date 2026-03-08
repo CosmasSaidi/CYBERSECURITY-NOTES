@@ -9,7 +9,7 @@ Practical notes from TryHackMe: **Offensive Security Intro** and **Defensive Sec
 Attackers probe common paths to discover hidden functionality:
 
 ```bash
-dirb http://fakebank.thm
+dirb http://target-site
 ```
 
 Wordlist commonly used:
@@ -27,8 +27,8 @@ Typical responses to monitor:
 Hidden endpoints can expose sensitive business functions without proper authorization checks.
 
 Example risk observed:
-- discovered endpoint: `/bank-deposit`
-- unauthorized action possible on arbitrary account
+- discovered sensitive endpoint not visible in the public UI
+- unauthorized action possible when access control is not enforced
 
 This is a **business logic access-control failure**.
 
