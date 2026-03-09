@@ -66,6 +66,7 @@ Detection and response notes for common web attack behavior.
 | Note | Description |
 |------|-------------|
 | [Web Discovery Detection & Response](web-security/web-discovery-detection-response.md) | Directory brute-force detection, SIEM triage, containment, WAF and rate limiting |
+| [Web Fundamentals Reference](web-security/web-fundamentals-reference.md) | DNS, ICMP, topologies, OSI model, HTTP, cookies, HTML/JS, and injection risk concepts |
 
 **Quick Detection Cues:**
 ```bash
