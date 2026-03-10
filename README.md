@@ -76,6 +76,16 @@ Detection and response notes for common web attack behavior.
 
 ---
 
+### 🖥️ Fundamentals
+
+Core computing concepts for security professionals.
+
+| Note | Description |
+|------|-------------|
+| [Computer & OS Security Reference](fundamentals/computer-os-security-reference.md) | Hardware, boot process, virtualization, cloud, kernel vs user space, OS security |
+
+---
+
 ### 📋 Methodology
 
 Structured approaches to security testing.
