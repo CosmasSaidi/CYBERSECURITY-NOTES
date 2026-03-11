@@ -10,3 +10,7 @@
 ## Shell Scripting
 - [Command Substitution](shell-scripting/command-substitution.md)
 - [Pipes and Redirection](shell-scripting/pipes-and-redirection.md)
+
+## Fundamentals
+- [Computer & OS Security Reference](fundamentals/computer-os-security-reference.md)
+- [Security Fundamentals, Crypto & Recon Reference](fundamentals/security-fundamentals-crypto-recon-reference.md)

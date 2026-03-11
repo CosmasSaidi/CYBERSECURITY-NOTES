@@ -83,6 +83,7 @@ Core computing concepts for security professionals.
 | Note | Description |
 |------|-------------|
 | [Computer & OS Security Reference](fundamentals/computer-os-security-reference.md) | Hardware, boot process, virtualization, cloud, kernel vs user space, OS security |
+| [Security Fundamentals, Crypto & Recon Reference](fundamentals/security-fundamentals-crypto-recon-reference.md) | CIA triad, encryption models, packet analysis, recon, encoding, and programming security concepts |
 
 ---
 
@@ -150,8 +151,9 @@ Understanding program behavior.
 |----------|-------|
 | Enumeration | LinPEAS, LinEnum |
 | Binary | GTFOBins, strings, xxd |
-| Network | nmap, netstat, ss |
-| Web | Burp Suite, DevTools |
+| Network | nmap, netstat, ss, Wireshark |
+| Web | Burp Suite, DevTools, WhatWeb, Gobuster |
+| Auth Testing | Hydra |
 
 ---
 
@@ -161,6 +163,8 @@ Understanding program behavior.
 - Automated enumeration techniques
 - Web application security
 - Shell scripting for security
+- Cryptography fundamentals
+- Network and web reconnaissance
 
 ---
 
