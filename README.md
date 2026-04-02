@@ -84,6 +84,7 @@ Core computing concepts for security professionals.
 |------|-------------|
 | [Computer & OS Security Reference](fundamentals/computer-os-security-reference.md) | Hardware, boot process, virtualization, cloud, kernel vs user space, OS security |
 | [Security Fundamentals, Crypto & Recon Reference](fundamentals/security-fundamentals-crypto-recon-reference.md) | CIA triad, encryption models, packet analysis, recon, encoding, and programming security concepts |
+| [Terminal Bandit Session Journal](fundamentals/terminal-bandit-session-journal.md) | Full-session structured learning summary: OS, Linux, networking, crypto, hashing, NTLM risk, detection and remediation |
 
 ---
 
