@@ -156,7 +156,7 @@ Practical uses:
 - hash cracking and pass-the-hash awareness
 
 ### Credential Capture Lab Pattern
-- responder-based network capture simulation
+- Responder-based network capture simulation
 - hash format interpretation and response planning
 
 Example command:
@@ -203,7 +203,21 @@ sudo responder -I eth0
 
 ---
 
-## 10) Skills Consolidated
+## 10) Exploitation Lifecycle Practice (Lab-Safe, High-Level)
+
+### Scenarios Covered
+- SMB remote exposure patterns in legacy Windows contexts (MS17-010/EternalBlue class)
+- shell/session stabilization and process-context reasoning
+- credential-material handling in authorized environments
+
+### Virtual Lab Workflow
+- Metasploitable-style targets for controlled service-enumeration practice
+- authentication testing and post-exploitation decision sequencing
+- legal-scope discipline and defensive interpretation of findings
+
+---
+
+## 11) Skills Consolidated
 
 - Linux CLI and shell fluency
 - network and protocol fundamentals
@@ -212,6 +226,7 @@ sudo responder -I eth0
 - authentication risk analysis
 - password security assessment concepts
 - incident-oriented defensive reasoning
+- controlled exploitation-chain reasoning in authorized labs
 
 ---
 
