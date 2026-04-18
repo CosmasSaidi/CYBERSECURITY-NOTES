@@ -1,172 +1,73 @@
 # Security Notes
 
-Technical documentation and methodology notes from hands-on cybersecurity practice.
+Structured reference notes for cybersecurity fundamentals, practical methodology, and defensive-minded analysis.
 
 ---
 
-## 📚 Topics
+## Coverage Areas
 
-### 🐧 Linux Security
+### Linux Security
 
-Core Linux concepts essential for security roles.
+| Note | Focus |
+|------|-------|
+| [Fundamentals](linux-security/fundamentals.md) | Linux command-line and system baseline concepts |
+| [Permissions](linux-security/permissions.md) | Access control model and permission hygiene |
+| [Process Management](linux-security/process-management.md) | Process visibility, job control, and operational awareness |
+| [Environment Variables](linux-security/environment-variables.md) | Execution context and security implications |
+| [User Management](linux-security/user-management.md) | User/group controls and privilege boundaries |
 
-| Note | Description |
-|------|-------------|
-| [Fundamentals](linux-security/fundamentals.md) | Essential commands, file system structure |
-| [File Permissions](linux-security/permissions.md) | chmod, octal notation, permission bits |
-| [Process Management](linux-security/process-management.md) | ps, top, job control, signals |
-| [Environment Variables](linux-security/environment-variables.md) | PATH, LD_PRELOAD, security implications |
-| [User Management](linux-security/user-management.md) | Users, groups, sudo, privilege escalation |
+### Enumeration
 
-**Key Commands:**
-```bash
-ls -la          # List with permissions
-chmod 755 file  # Change permissions
-ps aux          # List processes
-env             # View environment
-id              # User context
-```
+| Note | Focus |
+|------|-------|
+| [Linux Enumeration](enumeration/linux-enumeration.md) | Host, user, network, and configuration visibility |
 
----
+### Web Security
 
-### 🔍 Enumeration
+| Note | Focus |
+|------|-------|
+| [Web Discovery, Detection & Response](web-security/web-discovery-detection-response.md) | Discovery behavior and defensive detection context |
+| [Web Fundamentals Reference](web-security/web-fundamentals-reference.md) | HTTP, browser behavior, sessions, and injection risk concepts |
 
-Post-exploitation enumeration techniques.
+### Fundamentals
 
-| Note | Description |
-|------|-------------|
-| [Linux Enumeration](enumeration/linux-enumeration.md) | System info, users, network, credentials |
+| Note | Focus |
+|------|-------|
+| [Computer & OS Security Reference](fundamentals/computer-os-security-reference.md) | Architecture, operating systems, and security principles |
+| [Security Fundamentals, Crypto & Recon Reference](fundamentals/security-fundamentals-crypto-recon-reference.md) | CIA triad, crypto basics, reconnaissance, and secure reasoning |
+| [Terminal Bandit Session Journal](fundamentals/terminal-bandit-session-journal.md) | Consolidated practical learning timeline |
 
-**Quick Reference:**
-```bash
-# System
-uname -a
-cat /etc/os-release
+### Methodology
 
-# Users
-whoami && id
-sudo -l
-cat /etc/passwd
+| Note | Focus |
+|------|-------|
+| [Linux Privilege Escalation](methodology/linux-privesc.md) | Structured assessment checklist and risk identification flow |
 
-# Network
-ip a
-netstat -tuln
+### Shell, Binary, and RE Tracks
 
-# Interesting Files
-find / -perm -4000 2>/dev/null  # SUID
-find / -writable -type d 2>/dev/null
-```
+| Area | Focus |
+|------|-------|
+| [Shell Scripting](shell-scripting/) | Automation and command workflow fundamentals |
+| [Binary Exploitation](binary-exploitation/) | Binary analysis learning notes |
+| [Reverse Engineering](reverse-engineering/) | Program behavior understanding foundations |
 
 ---
 
-### 🌐 Web Security
+## Tooling Context
 
-Detection and response notes for common web attack behavior.
-
-| Note | Description |
-|------|-------------|
-| [Web Discovery Detection & Response](web-security/web-discovery-detection-response.md) | Directory brute-force detection, SIEM triage, containment, WAF and rate limiting |
-| [Web Fundamentals Reference](web-security/web-fundamentals-reference.md) | DNS, ICMP, topologies, OSI model, HTTP, cookies, HTML/JS, and injection risk concepts |
-
-**Quick Detection Cues:**
-```bash
-# High-volume 404s from a single source IP can indicate scanning
-# Repeated /admin, /backup, /config path probes are suspicious
-```
+- **System & Network:** Linux CLI, `nmap`, `ss`, `netstat`, Wireshark
+- **Web Analysis:** Burp Suite, browser DevTools, Gobuster
+- **Reference & Method:** GTFOBins, checklist-driven note taking
 
 ---
 
-### 🖥️ Fundamentals
+## Current Development Path
 
-Core computing concepts for security professionals.
-
-| Note | Description |
-|------|-------------|
-| [Computer & OS Security Reference](fundamentals/computer-os-security-reference.md) | Hardware, boot process, virtualization, cloud, kernel vs user space, OS security |
-| [Security Fundamentals, Crypto & Recon Reference](fundamentals/security-fundamentals-crypto-recon-reference.md) | CIA triad, encryption models, packet analysis, recon, encoding, and programming security concepts |
-| [Terminal Bandit Session Journal](fundamentals/terminal-bandit-session-journal.md) | Full-session structured learning summary: OS, Linux, networking, crypto, hashing, NTLM risk, detection and remediation |
+- Improve practical web security analysis depth
+- Strengthen enumeration interpretation and reporting
+- Expand defensive recommendations in each writeup
+- Keep notes concise, accurate, and reusable for future assessments
 
 ---
 
-### 📋 Methodology
-
-Structured approaches to security testing.
-
-| Note | Description |
-|------|-------------|
-| [Linux Privilege Escalation](methodology/linux-privesc.md) | PrivEsc checklist and common vectors |
-
-**Checklist:**
-1. User Context (`whoami`, `id`, `sudo -l`)
-2. System Info (`uname -a`)
-3. SUID Binaries (`find / -perm -4000`)
-4. Cron Jobs (`cat /etc/crontab`)
-5. PATH Hijacking (`echo $PATH`)
-6. Credentials (`grep -r "password" /etc/`)
-
----
-
-### 💻 Shell Scripting
-
-Automation for security tasks.
-
-| Note | Description |
-|------|-------------|
-| [Bash Basics](shell-scripting/) | Scripting fundamentals |
-
----
-
-### 🔧 Binary Exploitation
-
-Binary analysis and exploitation basics.
-
-| Note | Description |
-|------|-------------|
-| [Binary Basics](binary-exploitation/) | Understanding binaries |
-
----
-
-### 🔄 Reverse Engineering
-
-Understanding program behavior.
-
-| Note | Description |
-|------|-------------|
-| [RE Basics](reverse-engineering/) | Reverse engineering fundamentals |
-
----
-
-## 🎯 Practice Platforms
-
-| Platform | Focus |
-|----------|-------|
-| [pwn.college](https://pwn.college) | Linux, binary basics |
-| [TryHackMe](https://tryhackme.com) | Web security, PrivEsc |
-| [Hack The Box](https://hackthebox.com) | Real-world scenarios |
-
----
-
-## 🛠️ Tools Reference
-
-| Category | Tools |
-|----------|-------|
-| Enumeration | LinPEAS, LinEnum |
-| Binary | GTFOBins, strings, xxd |
-| Network | nmap, netstat, ss, Wireshark |
-| Web | Burp Suite, DevTools, WhatWeb, Gobuster |
-| Auth Testing | Hydra |
-
----
-
-## 📈 Current Focus
-
-- Linux privilege escalation vectors
-- Automated enumeration techniques
-- Web application security
-- Shell scripting for security
-- Cryptography fundamentals
-- Network and web reconnaissance
-
----
-
-*Documentation only. No flags or solutions.*
+*Documentation only: concepts, skills, writeups, and notes. No direct platform solutions.*
