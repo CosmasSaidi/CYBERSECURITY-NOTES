@@ -1,4 +1,4 @@
-# Index
+# Security Notes Index
 
 ## Linux Security
 - [Permissions](linux-security/permissions.md)
