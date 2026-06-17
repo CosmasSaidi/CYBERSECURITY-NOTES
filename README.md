@@ -4,6 +4,38 @@ Technical documentation and methodology notes from hands-on cybersecurity practi
 
 ---
 
+## 🌐 Networking & Internet Infrastructure
+
+Core networking and Internet architecture study built through Internet Society and Cisco Networking Academy learning.
+
+### Completed / Participated Courses
+
+- Fundamentals of Designing and Deploying Computer Networks
+- Internet Governance
+- What the Internet Needs to Exist
+- What the Internet Needs to Thrive
+- Introduction to Online Trust and Safety
+- Community Network Readiness Assessment Program
+- Community Networking Concepts and Deployment Readiness
+
+### Focus Areas
+
+- Computer network design and deployment
+- Internet infrastructure and architecture
+- Community networking and deployment readiness
+- Internet governance, trust, and safety
+- TCP/IP, routing, switching, VLANs, DHCP, DNS, and troubleshooting
+
+### Related Study Notes
+
+- Networking planning and address assignment
+- Topology design and validation with Packet Tracer
+- Connectivity planning for enterprise and community environments
+- Network sustainability and operational best practices
+- Network deployment readiness and trust-focused Internet design
+
+---
+
 ## 📚 Topics
 
 ### 🐧 Linux Security
@@ -140,6 +172,8 @@ Understanding program behavior.
 
 | Platform | Focus |
 |----------|-------|
+| [Internet Society](https://www.internetsociety.org/) | Internet architecture, governance, trust and safety |
+| [Cisco Networking Academy](https://www.netacad.com/) | Routing, switching, Packet Tracer, deployment basics |
 | [pwn.college](https://pwn.college) | Linux, binary basics |
 | [TryHackMe](https://tryhackme.com) | Web security, PrivEsc |
 | [Hack The Box](https://hackthebox.com) | Real-world scenarios |
@@ -150,6 +184,7 @@ Understanding program behavior.
 
 | Category | Tools |
 |----------|-------|
+| Networking | Cisco Packet Tracer, Wireshark, nslookup, ping |
 | Enumeration | LinPEAS, LinEnum |
 | Binary | GTFOBins, strings, xxd |
 | Network | nmap, netstat, ss, Wireshark |
@@ -160,12 +195,14 @@ Understanding program behavior.
 
 ## 📈 Current Focus
 
+- Network architecture, routing, switching, and deployment readiness
 - Linux privilege escalation vectors
 - Automated enumeration techniques
 - Web application security
 - Shell scripting for security
 - Cryptography fundamentals
 - Network and web reconnaissance
+- Linux systems administration, virtualization, enterprise infrastructure, Active Directory, cloud technologies, SOC operations, and cybersecurity engineering
 
 ---
 
