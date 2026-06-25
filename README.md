@@ -25,6 +25,7 @@ Core networking and Internet architecture study built through Internet Society a
 - Community networking and deployment readiness
 - Internet governance, trust, and safety
 - TCP/IP, routing, switching, VLANs, DHCP, DNS, and troubleshooting
+- Enterprise LAN segmentation with VLANs, IEEE 802.1Q trunking, SVIs, and inter-VLAN routing
 
 ### Related Study Notes
 
@@ -33,6 +34,7 @@ Core networking and Internet architecture study built through Internet Society a
 - Connectivity planning for enterprise and community environments
 - Network sustainability and operational best practices
 - Network deployment readiness and trust-focused Internet design
+- Multi-switch enterprise topology validation with ARP/ICMP testing and basic fault isolation
 
 ---
 
@@ -184,7 +186,7 @@ Understanding program behavior.
 
 | Category | Tools |
 |----------|-------|
-| Networking | Cisco Packet Tracer, Wireshark, nslookup, ping |
+| Networking | Cisco Packet Tracer, Layer 2/Layer 3 switching, IEEE 802.1Q trunking, SVIs, inter-VLAN routing, Wireshark, nslookup, ping |
 | Enumeration | LinPEAS, LinEnum |
 | Binary | GTFOBins, strings, xxd |
 | Network | nmap, netstat, ss, Wireshark |
