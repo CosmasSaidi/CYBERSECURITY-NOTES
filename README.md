@@ -6,7 +6,7 @@ Technical documentation and methodology notes from hands-on cybersecurity practi
 
 ## 🌐 Networking & Internet Infrastructure
 
-Core networking and Internet architecture study built through Internet Society and Cisco Networking Academy learning.
+Core networking and Internet architecture study built through Internet Society and Cisco Packet Tracer learning.
 
 ### Completed / Participated Courses
 
@@ -17,6 +17,7 @@ Core networking and Internet architecture study built through Internet Society a
 - Introduction to Online Trust and Safety
 - Community Network Readiness Assessment Program
 - Community Networking Concepts and Deployment Readiness
+- Cisco Packet Tracer Enterprise Networking
 
 ### Focus Areas
 
@@ -24,8 +25,62 @@ Core networking and Internet architecture study built through Internet Society a
 - Internet infrastructure and architecture
 - Community networking and deployment readiness
 - Internet governance, trust, and safety
-- TCP/IP, routing, switching, VLANs, DHCP, DNS, and troubleshooting
+- TCP/IP, routing, switching, VLANs, and troubleshooting
 - Enterprise LAN segmentation with VLANs, IEEE 802.1Q trunking, SVIs, and inter-VLAN routing
+- Layer 2 and Layer 3 switching architecture
+- Dynamic and static routing protocols
+- Network Address Translation (NAT)
+- Enterprise network design principles
+
+### Technical Skills and Knowledge
+
+**Networking Fundamentals:**
+- MAC addressing, ARP, Ethernet communication
+- ICMP ping and network diagnostic techniques
+- Network device configuration (routers, switches, end devices)
+- IP addressing and address verification
+
+**Switching Technologies:**
+- Layer 2 switching configuration and behavior
+- MAC address learning and switch forwarding tables
+- Broadcast domain management
+- Multi-switch network topologies with star architecture
+- Switch security configuration and management
+
+**VLANs and Network Segmentation:**
+- VLAN creation and port assignment
+- IEEE 802.1Q trunk link configuration
+- Switch Virtual Interfaces (SVIs) implementation
+- Inter-VLAN routing for cross-segment communication
+- IP subnetting for VLAN-to-subnet mapping
+- Departmental network isolation and organization
+
+**Enterprise LAN Design:**
+- Hierarchical network topology design
+- Layer 2 and Layer 3 switch deployment
+- Departmental network segmentation (Admin, Finance, Students, Guests)
+- Enterprise architecture principles
+- Scalable infrastructure design
+
+**Routing Technologies:**
+- Directly connected routes and routing table analysis
+- Static route configuration
+- Default route configuration
+- OSPF dynamic routing protocol
+- Automatic route exchange between routers
+
+**Network Address Translation (NAT):**
+- NAT purpose and role in enterprise networks
+- Private IP address translation
+- External network communication
+
+**Network Troubleshooting and Validation:**
+- ICMP testing and ping utilities
+- ARP resolution verification
+- End-to-end connectivity testing
+- Frame forwarding validation
+- Fault isolation methodology
+- Basic troubleshooting for addressing, VLAN assignment, and trunking issues
 
 ### Related Study Notes
 
