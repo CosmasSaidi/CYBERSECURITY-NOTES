@@ -25,11 +25,12 @@ Core networking and Internet architecture study built through Internet Society a
 - Internet infrastructure and architecture
 - Community networking and deployment readiness
 - Internet governance, trust, and safety
-- TCP/IP, routing, switching, VLANs, and troubleshooting
+- TCP/IP, routing, switching, VLANs, DHCP, DNS, and troubleshooting
 - Enterprise LAN segmentation with VLANs, IEEE 802.1Q trunking, SVIs, and inter-VLAN routing
 - Layer 2 and Layer 3 switching architecture
 - Dynamic and static routing protocols
 - Network Address Translation (NAT)
+- Wireless networking and enterprise service deployment
 - Enterprise network design principles
 
 ### Technical Skills and Knowledge
@@ -58,7 +59,7 @@ Core networking and Internet architecture study built through Internet Society a
 **Enterprise LAN Design:**
 - Hierarchical network topology design
 - Layer 2 and Layer 3 switch deployment
-- Departmental network segmentation (Admin, Finance, Students, Guests)
+- Departmental network segmentation (Admin, Finance, Students, Guests, Server Network)
 - Enterprise architecture principles
 - Scalable infrastructure design
 
@@ -74,13 +75,23 @@ Core networking and Internet architecture study built through Internet Society a
 - Private IP address translation
 - External network communication
 
+**Enterprise Services:**
+- DHCP scope configuration and automatic address allocation
+- DNS name resolution and client configuration
+- HTTP server deployment and client-server communication
+
+**Wireless Networking:**
+- Wireless access point configuration and wireless routers
+- SSID configuration, wireless authentication, and client connectivity
+- Guest wireless design and wireless segmentation
+
 **Network Troubleshooting and Validation:**
 - ICMP testing and ping utilities
 - ARP resolution verification
 - End-to-end connectivity testing
 - Frame forwarding validation
 - Fault isolation methodology
-- Basic troubleshooting for addressing, VLAN assignment, and trunking issues
+- Basic troubleshooting for addressing, VLAN assignment, trunking, and service issues
 
 ### Related Study Notes
 
